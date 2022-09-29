@@ -1,0 +1,24 @@
+body {
+}
+#title {
+  text-align: center;
+}
+#conteiner {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+#editor {
+  background-color: lightblue;
+  font-size: 20px;
+}
+#preview {
+  font-size: 20px;
+  width: 100%;
+  background-color: coral;
+  padding-left: 10px;
+}
+#preview h1 {
+  text-align: center;
+}
